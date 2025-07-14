@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+.top-nav {
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+  background: #f5f5f5;
+}
+
+.top-nav a.active {
+  font-weight: bold;
+}
+
+.page {
+  padding: 1rem;
+}
+
+body.dark {
+  background: #121212;
+  color: #eee;
+}
+
+body.dark .top-nav {
+  background: #1e1e1e;
+}
